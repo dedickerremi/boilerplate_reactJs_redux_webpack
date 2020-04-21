@@ -11,7 +11,7 @@ const Header = () => {
         height="30"
         className="d-inline-block align-top"
       />{' '}
-            React Bootstrap
+            <span>React Bootstrap</span>
     </Navbar.Brand>
   </Navbar>;
 };
