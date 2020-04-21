@@ -6,15 +6,17 @@ import Header from './components/Header';
 
 const App = () => {
   return (
-    <Container fluid>
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Redirect to="/" />
-        </Switch>
-      </Router>
-    </Container>
+    <div>
+      <Header />
+      <Container fluid>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Redirect to="/" />
+          </Switch>
+        </Router>
+      </Container>
+    </div>
   );
 };
 
